@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Plantilla de documento</title>
+
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+</head>
+
+<body>
+  <div id="wrapper">
+  
+  <div class="container">
+    <div class="titulo"> 
+       <label><h1>Plantilla de documento</h1></label>
+    </div>
+    <div class="col-left">Publicar hasta terminar el documento
+          <button class="btnPublicarDocumento">Publicar</button>
+     </div>
+    <div class="col-5">
+      <label>
+        Nombre
+        <input placeholder="Que nombre deseas utulizar para identificar este documento?" id="nombre" name="nombre">
+      </label>
+    </div>
+    <div class="col-5">
+      <label>
+        Titulo
+        <input placeholder="Cual titulo deseas poner a este documento?"id="titulo" name="titulo">
+      </label>
+    </div>
+    <div class="col-5">
+      <label>
+        Descripcion del formulario
+        <input placeholder="Indica la descripción que deseas colocar a este documento" id="descripcion" name="descripcion">
+      </label>
+    </div>
+    <div class="col-3">
+      <label>
+        Tema
+        <input placeholder="Que tema deseas colocar a este documento?" id="tema" name="tema">
+      </label>
+    </div>
+     <div class="col-3">
+      <label>
+        Area Tematica
+        <input placeholder="Indica un area tematica a el documento?" id="nombre" name="nombre">
+      </label>
+    </div>
+     <div class="col-3">
+      <label>
+        Publico Meta
+        <input placeholder="Indica el publico meta para el documeto?" id="nombre" name="nombre">
+      </label>
+    </div> 
+
+    <div class="col-5">
+      <label>
+        Encabezado en formato HTML
+        <textarea  placeholder="Deseas ingresar un encabezado en HTML para el documento si asi lo desea."></textarea>
+      </label>
+    </div> 
+     <div class="col-left">
+      <button class="btnGuardarDocumento"> Guardar </button>
+    </div>
+    <div class="col-add-section">
+      <button class="btnAgregarSection">+ Agregar Sección</button>
+     </div>
+      <div class="col-5">
+        <div id="circle2" class="circle"></div>
+      </div>
+      <div class="col-5">
+        <div id="circle2" class="circle"></div>
+      </div>
+      <div class="col-5">
+        <div id="circle2" class="circle"></div>
+      </div>
+      <div class="col-5">
+        <div id="circle2" class="circle"></div>
+      </div>
+      <div class="col-5">
+        <div id="circle2" class="circle"></div>
+      </div>
+  </div>
+
+
+
+
+
+
+  <div class="container">
+    <div class="titulo"> 
+       <label><h1>Sección</h1></label>
+    </div>
+    <div class="col-5">
+      <label>
+        Nombre
+        <input placeholder="Que nombre deseas utulizar para identificar este documento?" id="nombreSeccion" name="nombreSeccion">
+      </label>
+    </div>
+    <div class="col-5">
+      <label>
+        Titulo
+        <input placeholder="Cual titulo deseas poner a este documento?"id="tituloSeccion" name="tituloSeccion">
+      </label>
+    </div>
+    <div class="col-5">
+      <label>
+        Descripcion del formulario
+        <input placeholder="Indica la descripción que deseas colocar a este documento" id="descripcionSeccion" name="descripcionSeccion">
+      </label>
+    </div>
+    <div class="col-5">
+      <label>
+        Orden de aparición en el documento
+        <input placeholder="Posición, en valor numerico ej: 1" id="posicionSeccion" name="posicionSeccion">
+      </label>
+    </div>
+     <div class="col-left">
+      <button class="btnGuardarSection">Guardar</button>
+     </div>
+     <div class="col-left">
+      <button class="btnAgregarItem">+ Agregar Item</button>
+     </div>
+    <div class="col-rigth">
+          <button class="btnEliminarSeccion">- Eliminar Sección</button>
+     </div>
+     <div class="wrapItem">
+        <div class="titulo">  
+          <label class="title-item">
+            <h1>Item</h1>
+          </label>
+        </div>
+         <div class="col-2">
+          <label>
+            Titulo
+            <input placeholder="Cual titulo deseas poner a este Item?"id="tituloItem" name="tituloItem">
+          </label>
+        </div>
+         <div class="col-2">
+          <label>
+            Campo para ingreso de texto
+              <select>
+                <option>Campo de texto de una linea</option>
+                <option>Area de Texto para varias lineas</option>
+              </select>
+          </label>
+        </div>
+        <div class="col-5">
+          <label>
+            Editor de textos, para ingresar HTML o cualquier contenido que desee.
+            <textarea  placeholder="AQUIE TIENE QUE IR UN EDITOR AVANZADO."></textarea>
+          </label>
+        </div> 
+          <div class="col-left">
+            <button class="btnGuardarItem">Guardar</button>
+           </div>
+          <div class="col-rigth">
+                <button class="btnEliminarItem">- Eliminar Item</button>
+           </div>
+    </div>
+
+  </div>
+  </div>
+</body>
+</html>
